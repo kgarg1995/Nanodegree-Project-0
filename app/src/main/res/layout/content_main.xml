@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.iotalabs.appportfolionanodegree.MainActivity">
+
+    <TextView
+        android:text="My NanoDegree App Portfolio!!"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/buttonSpotify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Spotify Streamer"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#ffffff"
+        android:background="#FF5722"
+        />
+
+
+    <Button
+        android:id="@+id/buttonScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Scores App"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#ffffff"
+        android:background="#FF5722"
+        />
+
+    <Button
+        android:id="@+id/buttonlibrary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="My Own Library"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#ffffff"
+        android:background="#FF5722"
+        />
+
+    <Button
+        android:id="@+id/buttonBuildBigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Build It Bigger"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#ffffff"
+        android:background="#FF5722"
+        />
+
+    <Button
+        android:id="@+id/buttonXYZReader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="XYZ Reader"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#ffffff"
+        android:background="#FF5722"
+        />
+
+    <Button
+        android:id="@+id/buttonCapstone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Capstone "
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#ffffff"
+        android:background="#795548"
+        />
+
+</LinearLayout>
